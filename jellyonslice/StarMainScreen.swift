@@ -30,7 +30,7 @@ struct StarMainScreen: View {
             minTimePassed = false
             surfaceReady = false
 
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 4.0) {
                 minTimePassed = true
                 tryFinishLoading()
             }

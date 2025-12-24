@@ -18,8 +18,8 @@ final class StarLaunchPoints: ObservableObject {
     init() {
         let defaults = UserDefaults.standard
 
-        let defaultMain = "https://doancongbang1991.github.io/mobileapp/mobile/jellyslice/"
-        let defaultPrivacy = "https://oktaykaangames.github.io/jellyon-slice-stars-privacy"
+        let defaultMain = "https://malikatmaz.github.io/jellyon"
+        let defaultPrivacy = "https://malikatmaz.github.io/jellyon-terms"
 
         if let saved = defaults.string(forKey: mainKey),
            let value = URL(string: saved) {
